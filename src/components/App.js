@@ -3,10 +3,14 @@ import Footer from "./Footer";
 
 function App() {
     return (
-        <div>
-           <header>Add a Nav Bar</header> 
-           <p>Content</p>
-           <Footer/>
+        <div className="App">
+            <header>
+                <nav>
+                    {/* Add a Nav Bar here. Install React-Bootstrap??*/}
+                </nav>
+                <p>Add items here</p>
+            </header>
+            <Footer/>
         </div>
     );
 }
